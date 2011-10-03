@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/widget_root" android:layout_height="200dp"
+	android:layout_width="160dp" android:background="@drawable/background_2x2"
+	android:orientation="vertical">
+	<TextView android:id="@+id/tvTime" android:layout_width="match_parent"
+		android:gravity="top|center_horizontal" android:paddingTop="30dp"
+		android:textColor="@android:color/black" android:text="Loading"
+		android:textSize="12pt" android:layout_height="wrap_content" />
+	<TextView android:text="On" android:id="@+id/txtOn"
+		android:textColor="@color/green" android:clickable="true"
+		android:layout_width="fill_parent" android:textSize="8pt"
+		android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_margin_left" android:layout_marginTop="@dimen/states_margin_top"/>
+	<TextView android:text="Off" android:id="@+id/txtOff"
+		android:textColor="@color/red" android:clickable="true"
+		android:layout_width="fill_parent" android:textSize="8pt"
+		android:layout_height="wrap_content" android:layout_marginLeft="@dimen/text_margin_left" android:layout_marginTop="@dimen/states_margin_top"/>
+</LinearLayout>

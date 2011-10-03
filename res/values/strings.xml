@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Screen Lock Control Widget</string>
+    <string name="screenIsLocked">Lock On</string>
+    <string name="screenIsUnlocked">Lock Off</string>
+    <string name="configError">Error</string>
+</resources>
