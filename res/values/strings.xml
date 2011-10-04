@@ -5,4 +5,7 @@
     <string name="screenIsLocked">Lock On</string>
     <string name="screenIsUnlocked">Lock Off</string>
     <string name="configError">Error</string>
+    <string name="vendor">hasCode.com</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
 </resources>

@@ -16,7 +16,7 @@ public class LockControlService extends Service {
 	public static final String ACTION_UNLOCK = "com.hascode.android.lockwidget.unlock";
 	public static final String ACTION_STATUS = "com.hascode.android.lockwidget.status";
 
-	private static final int DEFAULT_TIMEOUT_MILLIS = 6000;
+	private static final int DEFAULT_TIMEOUT_MILLIS = 30000;
 	private static final String APP_TAG = "com.hascode.android.lockwidget";
 
 	@Override

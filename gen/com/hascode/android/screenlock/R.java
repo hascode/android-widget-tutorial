@@ -26,6 +26,7 @@ public final class R {
         public static final int tvTime=0x7f080001;
         public static final int txtOff=0x7f080003;
         public static final int txtOn=0x7f080002;
+        public static final int txtVendor=0x7f080004;
         public static final int widget_root=0x7f080000;
     }
     public static final class layout {
@@ -35,8 +36,11 @@ public final class R {
         public static final int app_name=0x7f070001;
         public static final int configError=0x7f070004;
         public static final int hello=0x7f070000;
+        public static final int off=0x7f070007;
+        public static final int on=0x7f070006;
         public static final int screenIsLocked=0x7f070002;
         public static final int screenIsUnlocked=0x7f070003;
+        public static final int vendor=0x7f070005;
     }
     public static final class xml {
         public static final int lockwidget_provider=0x7f040000;
